@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Hello ${firstname}</title>
+        <title>Hello ${person.firstname}</title>
     </head>
     <body>
         <h1>Hello World!</h1>
-        <h2>Hello ${firstname} ${lastname}</h2>
+        <h2>Hello ${person.firstname} ${person.lastname}</h2>
     </body>
 </html>
